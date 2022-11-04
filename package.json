@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-theme-hope-starter",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog",
+    "dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.51",
+    "vuepress-theme-hope": "2.0.0-beta.108"
+  }
+}
