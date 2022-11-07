@@ -9,13 +9,13 @@ export default hopeTheme({
   hostname,
 
   author: {
-    name: 'Mr.Hope',
+    name: '孤鹜',
     url: 'https://mrhope.site',
   },
 
   iconAssets: 'iconfont',
 
-  logo: '/logo.svg',
+  logo: '/logo.jpg',
 
   repo: 'vuepress-theme-hope/vuepress-theme-hope',
 
@@ -98,7 +98,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: '一个前端开发者',
+        description: '走在路上的人儿',
         intro: '/zh/intro.html',
       },
 
