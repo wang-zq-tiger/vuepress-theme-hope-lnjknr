@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-4e65ec78\",\"path\":\"/demo/disable.html\",\"title\":\"布局与功能禁用\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"布局与功能禁用\",\"icon\":\"config\",\"order\":3,\"category\":[\"使用指南\"],\"tag\":[\"禁用\"],\"navbar\":false,\"sidebar\":false,\"breadcrumb\":false,\"pageInfo\":false,\"contributors\":false,\"editLink\":false,\"lastUpdated\":false,\"prev\":false,\"next\":false,\"comment\":false,\"footer\":false,\"backtotop\":false,\"summary\":\"你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。\\n\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-P7EMTK5/demo/disable.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"秋水长天\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"布局与功能禁用\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-11-04T17:45:17.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"禁用\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-11-04T17:45:17.000Z\"}],[\"link\",{\"rel\":\"canonical\",\"href\":\"https://vuepress-theme-hope.github.io/blog-demo/demo/disable.html\"}]]},\"excerpt\":\"<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>\\n\",\"headers\":[],\"git\":{\"createdTime\":1667583917000,\"updatedTime\":1667583917000,\"contributors\":[{\"name\":\"wang-zq-tiger\",\"email\":\"116817358+wang-zq-tiger@users.noreply.github.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.42,\"words\":127},\"filePathRelative\":\"demo/disable.md\",\"localizedDate\":\"2022年11月5日\"}")
+export const data = JSON.parse("{\"key\":\"v-4e65ec78\",\"path\":\"/demo/disable.html\",\"title\":\"布局与功能禁用\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"布局与功能禁用\",\"icon\":\"config\",\"order\":3,\"category\":[\"使用指南\"],\"tag\":[\"禁用\"],\"navbar\":false,\"sidebar\":false,\"breadcrumb\":false,\"pageInfo\":false,\"contributors\":false,\"editLink\":false,\"lastUpdated\":false,\"prev\":false,\"next\":false,\"comment\":false,\"footer\":false,\"backtotop\":false,\"summary\":\"你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。\\n\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://DESKTOP-P7EMTK5/demo/disable.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"秋水长天\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"布局与功能禁用\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"禁用\"}],[\"link\",{\"rel\":\"canonical\",\"href\":\"https://vuepress-theme-hope.github.io/blog-demo/demo/disable.html\"}]]},\"excerpt\":\"<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>\\n\",\"headers\":[],\"readingTime\":{\"minutes\":0.42,\"words\":127},\"filePathRelative\":\"demo/disable.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

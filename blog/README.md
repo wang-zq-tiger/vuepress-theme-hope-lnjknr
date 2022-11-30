@@ -4,7 +4,8 @@ layout: Blog
 icon: home
 title: 秋水长天主页
 heroImage: /logo.jpg
-bgImage: /test4.jpg
+//bgImage: /test4.jpg
+bgImage: https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images
 heroText: 山的那边是海
 heroFullScreen: true
 tagline: 路漫漫其修远兮，吾将上下而求索

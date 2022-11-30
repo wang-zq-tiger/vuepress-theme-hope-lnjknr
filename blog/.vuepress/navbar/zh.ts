@@ -9,11 +9,19 @@ export const zhNavbar = navbar([
   prefix: '/demo/',
   children: [
     {
+      text: '敏捷测试',
+      icon: 'edit',
+      prefix: 'apple/',
+      children: [
+        { text: '敏捷测试', icon: 'edit', link: '' },
+      ],
+    },
+    {
       text: '安全测试',
       icon: 'edit',
       prefix: 'apple/',
       children: [
-        { text: '苹果1', icon: 'edit', link: '1' },
+        { text: '安全', icon: 'edit', link: '' },
       ],
     },
     {
@@ -21,7 +29,7 @@ export const zhNavbar = navbar([
       icon: 'edit',
       prefix: 'apple/',
       children: [
-        { text: '苹果1', icon: 'edit', link: '1' },
+        { text: '性能', icon: 'edit', link: '' },
       ],
     },
     {
@@ -29,7 +37,7 @@ export const zhNavbar = navbar([
       icon: 'edit',
       prefix: 'apple/',
       children: [
-        { text: '苹果1', icon: 'edit', link: '1' },
+        { text: '功能', icon: 'edit', link: '' },
       ],
     },
     {
@@ -37,7 +45,7 @@ export const zhNavbar = navbar([
       icon: 'edit',
       prefix: 'apple/',
       children: [
-        { text: '苹果1', icon: 'edit', link: '1' },
+        { text: '自动化', icon: 'edit', link: '' },
       ],
     },
     {
@@ -45,7 +53,7 @@ export const zhNavbar = navbar([
       icon: 'edit',
       prefix: 'apple/',
       children: [
-        { text: '苹果1', icon: 'edit', link: '1' },
+        { text: 'APP', icon: 'edit', link: '' },
       ],
     }
   ] 
@@ -60,8 +68,7 @@ export const zhNavbar = navbar([
         icon: 'edit',
         prefix: 'apple/',
         children: [
-          { text: '苹果1', icon: 'edit', link: '1' },
-          { text: '苹果2', icon: 'edit', link: '2' },
+          { text: '拾光', icon: 'edit', link: '' },
         ],
       },
       {
@@ -70,26 +77,29 @@ export const zhNavbar = navbar([
         prefix: 'banana/',
         children: [
           {
-            text: '香蕉 1',
+            text: '流年',
             icon: 'edit',
             link: '1',
           },
-          {
-            text: '香蕉 2',
-            icon: 'edit',
-            link: '2',
-          },
         ],
       },
-      { text: '樱桃', icon: 'edit', link: 'cherry' },
-      { text: '火龙果', icon: 'edit', link: 'dragonfruit' },
-      'tomato',
-      'strawberry',
+    ],
+  },
+  {
+    text: '读书の笔记',
+    icon: 'book',
+    prefix: '/book/',
+    children: [
+      {
+        text: 'google测试之道',
+        icon: 'edit',
+        link: 'google测试之道',
+      },
     ],
   },
   {
     text: '文章链接',
-    icon: 'edit',
+    icon: 'link',
     children: [
       {
         text: 'V2 文档',
@@ -109,4 +119,5 @@ export const zhNavbar = navbar([
       },
     ],
   },
+
 ]);
